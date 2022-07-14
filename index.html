@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>jQuery Practical Course</title>
+</head>           
+<body>  
+  <!-- start Navbar -->
+  <div class="nav-bar">
+    <div class="container">
+      <ul>
+        <li>
+          <a href="#" data-scroll="services">Services</a>
+        </li>
+        <li>
+          <a href="#" data-scroll="contact">Contact Us</a>
+        </li>
+        <li>
+          <a href="#" data-scroll="about">About</a>
+        </li>
+        <li>
+          <a href="#" data-scroll="portfolio">Portfolio</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- end Navbar -->
+  <!-- start Fixed Menu -->
+  <div class="fixed-menu">
+    <div class="show-menu">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <h2>Home</h2>
+    <h2>Portfolio</h2>
+    <h2>Contact</h2>
+    <h2>Subscribe</h2>
+  </div>
+  <!-- end Fixed Menu -->
+  <div class="content">
+    <div id="services" class="services">
+      <h2>Services</h2>
+      <!-- start Buttons -->
+        <div class="buttons">
+          <div></div>
+          <div>
+            Download
+          </div>
+        </div>
+        <div class="buttons">
+          <div></div>
+          <div>
+            Subscribe
+          </div>
+        </div>
+        <div class="buttons">
+          <div></div>
+          <div>
+            Subscribe
+          </div>
+        </div>
+        <div class="btn">
+          <div>
+            Download
+          </div>
+        </div>
+      <!-- end Buttons -->
+      <!-- start Progress Bar -->
+      <div class="progress-bar">
+        <div data-progress="82%"></div>
+      </div> 
+      <div class="progress-bar red">
+        <div data-progress="100%"></div>
+      </div>
+      <div class="progress-bar green">
+        <div data-progress="52%"></div>
+      </div>      
+      <div class="progress-bar yellow">
+        <div data-progress="96%"></div>
+      </div>  
+      <!-- end Progress Bar -->
+    </div>
+    <div id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <!-- start Gallery -->
+      <div class="gallery">
+        <div class="master-img">
+          <i class="fa fa-chevron-left"></i>
+          <i class="fa fa-chevron-right"></i>
+          <img src="img/img-1.jpeg" alt="master-img">
+        </div>
+        <div class="thumbnails">
+          <img class="selected" src="img/img-1.jpeg" />
+          <img src="img/img-2.jpg" />
+          <img src="img/img-3.jpg" />
+          <img src="img/img-4.jfif" />
+          <img src="img/img-5.jpeg" />
+        </div>
+      </div>
+      <!-- end Gallery -->
+    </div>
+    <div id="about" class="about">
+      <h2>About</h2>
+      <div class="container">
+        <div class="switch-btn">
+          <i class="fa fa-list active" data-class="list-items"></i>
+          <i class="fa fa-th-large" data-class="grid-vue"></i>
+        </div>
+        <div class="products list-items">
+          <div class="col">
+            <h3>Product One</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, itaque. Eligendi molestias quo excepturi cupiditate eos, inventore laboriosam quasi incidunt autem sapiente. Quod quibusdam dolorum inventore, voluptatem eum harum quidem.
+            </p>
+          </div>
+          <div class="col">
+            <h3>Product One</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, itaque. Eligendi molestias quo excepturi cupiditate eos, inventore laboriosam quasi incidunt autem sapiente. Quod quibusdam dolorum inventore, voluptatem eum harum quidem.
+            </p>
+          </div>
+        </div>
+        <div class="form">
+          <h3>Your Info</h3>
+          <form action="" method="post">
+            <div>
+              <input class="tag-convert" type="text" placeholder="Enter Your Email">
+              <span class="result">
+                <i class="fa fa-check" aria-hidden="true"></i>
+              </span>
+            </div>
+            <div class="tags-content"></div>
+            <div>
+              <input type="password" placeholder="Enter Your Password">
+              <span class="result">
+                <i class="fa fa-check" aria-hidden="true"></i>
+              </span>
+            </div>
+            <div>
+              <textarea id="message" cols="30" rows="10">Your Message Here
+              </textarea>
+              <span class="result">
+                <i class="fa fa-check" aria-hidden="true"></i>
+              </span>
+            </div>
+            <input type="button" value="Submit">
+            <input type="file">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio" class="portfolio">
+      <h2>Portfolio</h2>
+      <div class="trim-text">
+        <p>
+          Reda Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum obcaecati fugiat cumque ex, corporis nulla, tenetur, repellendus magni modi aut autem. Repellat alias, dignissimos corrupti in quos minima illum assumenda!
+        </p>
+        <p>
+          Kheira Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sint animi earum aspernatur explicabo, ducimus fugit. Esse dicta, libero officiis illo laborum soluta earum quasi in sed commodi consectetur et?
+        </p>
+      </div>
+      <div class="container">
+        <div class="same-height">
+            <div class="col">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem reiciendis libero tenetur dolore atque, aut 
+            </div>
+            <div class="col">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur ad iure ipsa, quos soluta eos alias, asperiores cum atque, magni architecto iste accusantium eligendi adipisci ex iusto sunt modi corrupti.
+            </div>
+            <div class="col">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui iusto explicabo unde iste similique ab eius provident. Deleniti magni, ipsum aliquid, asperiores iure assumenda natus tempore perspiciatis, amet nostrum veritatis?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque blanditiis laudantium nobis quis. Voluptatum ex, beatae iste tenetur incidunt aliquid eos corporis id ratione impedit quaerat adipisci voluptatibus repellat quidem!
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa molestias dolore sit quo, quibusdam modi sunt temporibus obcaecati eum nesciunt, corporis doloribus aliquid iusto officia magni, hic est libero ea?
+            </div>
+        </div>
+        <div class="cards">
+          <div class="card card1"></div>
+          <div class="card card2"></div>
+          <div class="card card3"></div>
+          <div class="card card4"></div>
+          <div class="card card5"></div>
+          <div class="card card6"></div>
+          <div class="card card7"></div>
+          <div class="card card8"></div>
+        </div>
+        <div class="todo-list">
+          <h3>To-Do List</h3>
+          <ul class="list">
+            <li>Learn Python
+              <i class="fa fa-times"></i>
+            </li>
+            <li>Learn JavaScript
+              <i class="fa fa-times"></i>
+            </li>
+            <li>Learn Css
+              <i class="fa fa-times"></i></li>
+            <li>Learn HTML
+              <i class="fa fa-times"></i>
+            </li>
+          </ul>
+          <div class="input-container">
+            <form method="post">
+              <input type="text" id="add-list" placeholder="Add List">
+            </form>
+            <i class="fa fa-chevron-up"></i>
+          </div>
+        </div>
+        <div class="type-writer">
+          <p data-text="I Love JavaScript Want To Become Front End Developer"></p>
+          <button>Click Here</button>
+        </div>
+        <div class="table">
+          <table>
+            <tr>
+              <td>Name</td>
+              <td>Value</td>
+              <td>Price</td>
+            </tr>
+            <tr>
+              <td>Data One</td>
+              <td>10 Items</td>
+              <td class="price">100$</td>
+            </tr>
+            <tr>
+              <td>Data Two</td>
+              <td>5 Items</td>
+              <td class="price">80$</td>
+            </tr>
+            <tr>
+              <td>Data Three</td>
+              <td>1 Item</td>
+              <td class="price">20$</td>
+            </tr>
+            <tr>
+              <td>Data Four</td>
+              <td>20 Items</td>
+              <td class="price">200$</td>
+            </tr>
+            <tr>
+              <td>Data FIve</td>
+              <td>2 Items</td>
+              <td class="price">28$</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Total :</td>
+              <td class="total"></td>
+            </tr>
+          </table>
+        </div>
+        <div class="auto-change">
+          <h3>Today Notes</h3>
+          <ul>
+            <li class="active">This is one Project</li>
+            <li>This is two Project</li>
+            <li>This is three Project</li>
+            <li>This is four Project</li>
+            <li>This is five Project</li>
+          </ul>
+        </div>
+        <div class="switch-content">
+          Switch
+        </div>
+        <div class="content left-content">
+          <div class="tabs left-tab">
+            <ul>
+              <li class="active" data-content="content-one">Product One</li>
+              <li data-content="content-two">Product Two</li>
+              <li data-content="content-three">Product Three</li>
+            </ul>
+          </div>
+          <div class="tabs-content left-tab-content">
+            <div class="content-one active">
+              <h4>Content One</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, harum commodi vero dolore fugit quaerat expedita numquam dolorem in omnis. Qui corrupti quo, tempore autem fugiat nihil ab quos porro.
+              </p>
+            </div>
+            <div class="content-two">
+              <h4>Content Two</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, harum commodi vero dolore fugit quaerat expedita numquam dolorem in omnis. Qui corrupti quo, tempore autem fugiat nihil ab quos porro.
+              </p>
+            </div>
+            <div class="content-three">
+              <h4>Content Three</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, harum commodi vero dolore fugit quaerat expedita numquam dolorem in omnis. Qui corrupti quo, tempore autem fugiat nihil ab quos porro.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- start scroll top button -->
+  <div class="scroll-top-btn">
+    <i class="fa fa-chevron-up"></i>
+  </div>
+  <!-- end scroll top button -->
+  <!-- start Pop Up -->
+  <!-- <div class="pop-up">
+    <div class="inner">
+      <h2>POP UP</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, et dolor saepe, facere, fugiat sequi corrupti provident vero earum reiciendis exercitationem sit. Animi vero quod iste laudantium, voluptate asperiores amet!
+      </p>
+      <button>Close</button>
+    </div>
+  </div> -->
+  <!-- end Pop Up -->
+  <!-- start Error Message -->
+  <div class="error">
+    This Is Error Message
+  </div>
+  <!-- end Error Message -->
+
+  <!-- start Progress Scroll -->
+  <div class="progress-scroll">
+    <span></span>
+  </div>
+  <!-- end Progress Scroll -->
+  <!-- start warning -->
+  <div class="warning">
+    Warning
+  </div>
+  <!-- end warning -->
+
+  <!-- JS Files -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
